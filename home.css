@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(248, 246, 246);
+}
+#pages {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 71px;
+}
+div a {
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(24, 64, 110);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 28px;
+  text-decoration: underline;
+}
+form {
+  width: 480px;
+  border: 1px solid rgb(230, 230, 230);
+  margin: 2% auto;
+  padding: 4%;
+  background: white;
+}
+input,
+select {
+  display: block;
+  margin: 15px 0px;
+  font-size: 20px;
+  padding: 2%;
+}
+option {
+  font-size: 25px;
+}
+#submit {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(24, 64, 110);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+input {
+  width: 88%;
+}
+select {
+  width: 51%;
+}

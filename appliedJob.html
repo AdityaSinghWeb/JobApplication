@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Applied Jobs</title>
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <div id="pages">
+      <div><a href="home.html">Home</a></div>
+      <div><a href="appliedJob.html">Applied Jobs</a></div>
+      <div><a href="bookmark.html">Bookmarks</a></div>
+    </div>
+    <select id="sort">
+      <option value="">Sort By Name</option>
+      <option value="Ascending">Ascending</option>
+      <option value="Descending">Descending</option>
+    </select>
+    <select id="filter">
+      <option value="">Filter By Role</option>
+      <option value="Frontend">Frontend</option>
+      <option value="Backend">Backend</option>
+      <option value="FSD">FSD</option>
+    </select>
+    <select id="nums">
+      <option value="">Sort By Salary</option>
+      <option value="Ascending">Low</option>
+      <option value="Descending">High</option>
+    </select>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Job Applied</th>
+            <th>Salary Expected</th>
+            <th>Add To Bookmark</th>
+          </tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+      </table>
+    </main>
+  </body>
+</html>
+<script src="appliedJob.js"></script>
+<script src="sort.js"></script>
